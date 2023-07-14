@@ -1,0 +1,30 @@
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  cursor: default;
+}
+
+.cartItem .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartItem .left .info-left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.cartItem .right button {
+  margin-left: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.cartItem .right button:hover {
+  padding: 4px;
+  border: 1px solid;
+  border-radius: 5px;
+}

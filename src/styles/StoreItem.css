@@ -1,0 +1,63 @@
+.container-item {
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.container-item:hover {
+  box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.4);
+}
+
+.container-item .img-item img {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+}
+
+.container-item .body-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.container-item .state-item {
+  padding: 5px;
+  text-align: center;
+}
+
+.container-item .state-item button {
+  background-color: rgba(59, 131, 189);
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.container-item .state-item button:hover {
+  border: 2px solid;
+  padding: 3px;
+}
+
+.container-item .options-item {
+  position: relative;
+  display: flex;
+}
+
+.container-item .options-item button {
+  margin: 0 10px;
+  width: 25px;
+}
+
+.container-item .options-item span {
+  font-size: 28px;
+  width: 35px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: default;
+}
+
+.container-item .options-item .rm {
+  position: absolute;
+  right: 0em;
+  width: 65px;
+  background-color:rgb(203, 50, 52);
+}

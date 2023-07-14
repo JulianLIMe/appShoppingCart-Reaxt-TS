@@ -1,0 +1,50 @@
+.container-navbar {
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+  box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  position: relative;
+}
+
+.container-navbar .link {
+  text-decoration: none;
+  padding: 0 5px;
+  margin: 0 20px;
+  color: rgba(0, 0, 0);
+  cursor: pointer;
+}
+.container-navbar .link:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.container-navbar button {
+  position: absolute;
+  right: 1em;
+  bottom: 0.3em;
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  border-radius: 50%;
+  border: 2px solid;
+  line-height: 50%;
+  cursor: pointer;
+}
+.container-navbar button:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.container-navbar .circle-store {
+  position: absolute;
+  background-color: red;
+  right: .7em;
+  bottom: .2em;
+  z-index: 2;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  cursor: default;
+}
