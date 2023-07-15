@@ -10,5 +10,5 @@ Open Git Bash and change the current directory to the location where you whant t
 ```
 git clone https://github.com/JulianLIMe/appShoppingCart-Reaxt-TS.git
 cd appShoppingCart-React-TS
-npm instal && npm run dev
+npm install && npm run dev
 ```
